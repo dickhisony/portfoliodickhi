@@ -46,7 +46,7 @@ html {
 .navbar .navbar-nav a {
   color: var(--color-2);
   font-family: var(--font-2);
-  font-size: 1rem;
+  font-size: 1.8rem;
   margin: 0 1rem;
   display: inline-block;
 }
@@ -82,7 +82,6 @@ html {
   min-height: 100vh;
   display: flex;
   align-items: center;
-  background-color: #fee6a8;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -145,7 +144,6 @@ html {
 .contact,
 .footer {
   padding: 8rem 7% 1.4rem;
-  background-color: #fee6a8;
 }
 
 .about h2,
@@ -200,7 +198,7 @@ html {
 }
 
 .about .row .about-content ul li {
-  list-style: none;
+  list-style: circle;
   font-size: 1.2rem;
   font-family: var(--font-1);
   color: var(--color-1);
@@ -464,7 +462,7 @@ html {
 /* Mobile Phone */
 @media (max-width: 450px) {
   html {
-    font-size: 55%;
+    font-size: 45%;
   }
 
   .hero {
@@ -477,5 +475,9 @@ html {
 
   .hero .content .text-2 {
     font-size: 4rem;
+  }
+
+  .project .project-img img {
+    height: 190px;
   }
 }
